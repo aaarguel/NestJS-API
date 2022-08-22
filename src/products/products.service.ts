@@ -26,7 +26,6 @@ export class ProductsService {
   }
 
   async removeByOwner(id:string, user:User){
-    console.log(id,user.id);
     return await this.productModel.deleteOne({_id:id,owner:user.id})
   }
     

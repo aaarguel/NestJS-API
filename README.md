@@ -22,7 +22,7 @@
   npm i -g @nestjs/cli
 ```
 
-4. Up a docker container
+4. Up a docker database container
 
 ```
   docker-compose up -d
